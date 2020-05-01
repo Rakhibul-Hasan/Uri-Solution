@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{ 
+int m,s,a,b,n;
+scanf("%d%d",&m,&n);
+if( m<1 || n<1){ return 0; }
+while( m>0 && n>0){ a=m;b=n;s=0;
+while( m<n+1){ printf( "%d ",m);
+s=s+m;
+m++;
+}
+while(a+1>b){ printf("%d ",b);
+s=s+b;
+b++;
+}
+printf("Sum=%d\n",s);
+scanf("%d%d",&m,&n);
+if( m<1 || n<1){return 0;}
+}
+return 0;
+}
