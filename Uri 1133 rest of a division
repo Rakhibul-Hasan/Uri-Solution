@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int x,y,a,b;
+	scanf("%d%d",&x,&y);
+	a=x+1; b=y+1;
+	while(a<y){ if(a%5==2 || a%5==3){ printf("%d\n",a);
+	}
+	a++;
+	}
+	while(x>b){ if(b%5==2 || b%5==3){ printf("%d\n",b);
+	}
+	b++;
+	}
+	return 0;
+}
