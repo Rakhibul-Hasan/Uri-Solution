@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    double input;
+    int n,n100,n50,n20,n10,n5,n2,m100,m50,m25,m10,m5,m1;
+    scanf("%lf",&input);
+    n= input*100;
+    n100=n/10000; n=n%10000;
+    n50=n/5000; n=n%5000;
+    n20=n/2000; n=n%2000;
+    n10=n/1000; n=n%1000;
+    n5=n/500; n=n%500;
+    n2=n/200; n=n%200;
+    m100=n/100; n=n%100;
+    m50=n/50; n=n%50;
+    m25=n/25; n=n%25;
+    m10=n/10; n=n%10;
+    m5=n/5; n=n%5;
+    m1=n;
+    printf("NOTAS:\n%d nota(s) de R$ 100.00\n%d nota(s) de R$ 50.00\n%d nota(s) de R$ 20.00\n%d nota(s) de R$ 10.00\n%d nota(s) de R$ 5.00\n%d nota(s) de R$ 2.00\nMOEDAS:\n%d moeda(s) de R$ 1.00\n%d moeda(s) de R$ 0.50\n%d moeda(s) de R$ 0.25\n%d moeda(s) de R$ 0.10\n%d moeda(s) de R$ 0.05\n%d moeda(s) de R$ 0.01\n",n100,n50,n20,n10,n5,n2,m100,m50,m25,m10,m5,m1);
+return 0;
+}
