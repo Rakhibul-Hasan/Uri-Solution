@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,temp;
+    scanf("%d%d%d",&a,&b,&c);
+    d=a;
+    e=b;
+    f=c;
+    if(d<e){ temp=d; d=e; e=temp;}
+    if(e<f){ temp=e; e=f; f=temp;}
+    if(d<e){ temp=d; d=e; e=temp;}
+    printf("%d\n%d\n%d\n\n%d\n%d\n%d\n",f,e,d,a,b,c);
+    return 0;
+}
