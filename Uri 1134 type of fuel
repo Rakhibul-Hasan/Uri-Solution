@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int x,a=0,g=0,d=0;
+	scanf("%d",&x);
+	while(x!=4){ 
+	if( x==1){ a=a+1;}
+	if(x==2) { g=g+1;}
+	if(x==3) { d=d+1;}
+	scanf("%d",&x);
+	}
+	printf("MUITO OBRIGADO\nAlcool: %d\nGasolina: %d\nDiesel: %d\n",a,g,d);
+	return 0;
+}
