@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	float x=11,y=11;
+	while(x<0 || x>10){ scanf("%f",&x);
+	if(x<0 || x>10){ printf("nota invalida\n");
+	}
+	}
+	while(y<0 || y>10){ scanf("%f",&y);
+	if(y<0 || y>10){ printf("nota invalida\n");
+	}
+	}
+	printf("media = %.2f\n",(x+y)/2);
+	return 0;
+}
