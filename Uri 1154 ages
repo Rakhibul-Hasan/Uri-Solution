@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	double a,i=1,j,s=0;
+	scanf("%lf",&a);
+	if(a<0){ return 0; }
+	while(a>=0){ s=s+a;
+	j=i;
+	i=i+1;
+	scanf("%lf",&a);
+	}
+	printf("%.2lf\n",s/j);
+	return 0;
+}
