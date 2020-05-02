@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    char a[101],b[101],c[101];
+    setbuf(stdin, NULL);
+    scanf(" %[^\n]", a);
+    setbuf(stdin, NULL);
+    scanf(" %[^\n]", b);
+    setbuf(stdin, NULL);
+    scanf(" %[^\n]", c); printf("%s%s%s\n%s%s%s\n%s%s%s\n", a,b,c, b,c,a, c,a,b);
+   int i = 0;
+    while(a[i] != '\0' && i < 10)
+        printf("%c",a[i++]);
+    i = 0;
+    while(b[i] != '\0' && i < 10)
+        printf("%c",b[i++]);
+    i = 0;
+    while(c[i] != '\0' && i < 10)
+        printf("%c",c[i++]);
+    printf("\n");
+    return 0;
+}
