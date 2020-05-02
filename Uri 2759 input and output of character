@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+	char x,y,z;
+	scanf("%s%s%s",&x,&y,&z);
+	printf("A = %c, B = %c, C = %c\nA = %c, B = %c, C = %c\nA = %c, B = %c, C = %c\n",x,y,z,y,z,x,z,x,y);
+}
